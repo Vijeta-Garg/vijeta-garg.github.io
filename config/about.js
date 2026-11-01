@@ -3,8 +3,8 @@
    You can use simple HTML inside the text, e.g. <b>bold</b> or <a href="...">link</a>.
    ===================================================================== */
 window.ABOUT = {
-  // Put your photo at assets/img/avatar.jpg (square works best). Until then your initials show.
-  photo: "assets/img/avatar.jpg",
+  // Put your photo at assets/img/avatar.png (square works best). Until then your initials show.
+  photo: "assets/img/avatar.png",
 
   greeting: "Hi, I'm Vijeta!",
 
