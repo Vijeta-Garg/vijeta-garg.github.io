@@ -26,12 +26,13 @@
     </section>
 
     <section class="narrow bio">${(A.bio || []).map(p => `<p>${p}</p>`).join('')}</section>
-
+<!--
     ${A.academics && A.academics.length ? `
     <section class="narrow">
       <h2 class="section-title">${A.academicsTitle || 'Academics'}</h2>
       <div class="glance">${A.academics.map(a => `<div class="card"><h3>${a.label}</h3><p>${a.value}</p></div>`).join('')}</div>
     </section>` : ''}
+	-->
 
     ${A.highlights && A.highlights.length ? `
     <section class="narrow">
