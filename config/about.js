@@ -8,28 +8,21 @@ window.ABOUT = {
 
   greeting: "Hi, I'm Vijeta!",
 
-  interests: ["Soft robotics", "E-textiles", "Wearable tech", "Hardware", "AI for good"],
+  interests: ["Soft robotics", "E-textiles", "Wearable tech", "Hardware", "Accessible Solutions", "Society",  "AI for good"],
 
   // Each item is one paragraph.
   bio: [
-    "I'm a high school student at the <b>Edison High School STEM Academy</b> in New Jersey. I love building things that sit right where hardware meets people: soft robots, smart textiles and wearables that help with real health problems.",
-    "My main research designs <b>soft actuators that mimic massage motions</b> to help breast cancer survivors manage late effects, and I'll be presenting it at the E-Textiles 2026 international conference in the Czech Republic. Outside the lab you'll find me at hackathons, mentoring girls in hardware through Hack Club, and running our school's Model UN conferences."
-  ],
-
-  academicsTitle: "Academics",
-  academics: [
-    { label: "School", value: "Edison High School STEM Academy" },
-    { label: "GPA",    value: "4.24 / 4.33 unweighted<br>5.93 / 6.0 weighted" },
-    { label: "AP Scores", value: "5s on AP Biology, AP Chemistry, AP Physics 1, AP Calculus BC, APUSH and AP World History" }
+    "I'm a high school student at the <b>Edison High School STEM Academy</b> in New Jersey. I love building things that sit right where technology meets people & society: soft robots, smart textiles and wearables that help with real health challenges or social challenges.",
+    "My main research designs <b>soft actuators that mimic massage motions</b> to help breast cancer survivors manage late effects, and I'll be presenting it at the E-Textiles 2026 international conference in the Czech Republic. Outside the lab you'll find me at hackathons, playing tennis, mentoring girls in hardware through Hack Club, and running our school's Model UN conferences."
   ],
 
   highlightsTitle: "Highlights",
   highlights: [
-    "<b>1st Place Overall</b>, Sigma Xi Student Research Showcase (1 of 300, across high school, undergraduate and graduate divisions)",
-    "<b>Best Poster Presentation</b> (1 of 141), MIT Undergraduate Research Technology Conference 2026",
+    "<b>1st Place Overall</b>, Sigma Xi Student Research Showcase (1 of 300, across high school, undergraduate and graduate divisions) - 2026",
+    "<b>Best Poster Presentation</b> (1 of 141), MIT Undergraduate Research Technology Conference - 2026",
     "<b>Accepted poster presenter</b>, E-Textiles 2026 International Conference (Czech Republic), with a sole-first-author paper under IEEE review",
-    "<b>Bob Berman Award for Disruptive Innovation</b>, MIT Beaver Works Summer Institute 2025",
-    "<b>3rd Place</b>, NJ-06 Congressional App Challenge"
+    "<b>Bob Berman Award for Disruptive Innovation</b>, MIT Beaver Works Summer Institute - 2025",
+    "<b>3rd Place</b>, NJ-06 Congressional App Challenge - 2025"
   ],
 
   exploreTitle: "Explore",
