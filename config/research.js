@@ -36,7 +36,7 @@ window.RESEARCH = {
       highlights: [
         "Accepted as a poster presenter at <b>E-Textiles 2026</b>: International Conference on the Challenges, Opportunities, Innovations and Applications in Electronic Textiles (Czech Republic, November 2026), alongside professionals and graduate students in the field.",
         "Conference paper under review for the <b>IEEE proceedings</b>, as sole first author.",
-        "Won 1st place overall across the high school, undergraduate and graduate divisions of the Sigma Xi Student Research Showcase, plus the Design and Manufacturing category - 2025."
+        "Won 1st place overall across the high school, undergraduate and graduate divisions of the Sigma Xi Student Research Showcase, plus the Design and Manufacturing category - 2026."
       ],
       links: [
         // { label: "Paper", url: "https://..." },
