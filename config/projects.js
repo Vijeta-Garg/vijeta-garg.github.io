@@ -4,6 +4,7 @@
    Same format as config/research.js:
    id → must match the folder in content/projects/<id>/ (images/ videos/ files/ slides/)
    The ORDER here = the order in the left index.
+   blog → blog post file names (without .md) to link with a margin note
    ===================================================================== */
 window.PROJECTS = {
   pageTitle: "My Builds!",
@@ -28,6 +29,7 @@ window.PROJECTS = {
     },
     {
       id: "orwell",
+      blog: ["2025-12-11-orwell-app-3rd-place-congressional-app-challenge-nj06"],
       title: "Orwell",
       where: "Congressional App Challenge (NJ-06)",
       awards: ["3rd Place, NJ-06 Congressional App Challenge"],
@@ -54,6 +56,7 @@ window.PROJECTS = {
     },
     {
       id: "nothole",
+      blog: ["2025-03-04-nothole", "2025-03-04-blueprint-mit-my-first-hackathon-win"],
       title: "Nothole",
       where: "MIT Blueprint Hackathon",
       when: "2025",
@@ -91,6 +94,7 @@ window.PROJECTS = {
     },
     {
       id: "soliss",
+      blog: ["2025-09-26-pennapps-25-sunscreen-reminder-shirt-soliss"],
       title: "Soliss",
       where: "PennApps (University of Pennsylvania)",
       when: "2025",

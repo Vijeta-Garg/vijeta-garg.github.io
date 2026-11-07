@@ -13,7 +13,7 @@ window.ABOUT = {
   // Each item is one paragraph.
   bio: [
     "I'm a high school student at the <b>Edison High School STEM Academy</b> in New Jersey. I love building things that sit right where technology meets people & society: soft robots, smart textiles and wearables that help with real health challenges or social challenges.",
-    "My main research designs <b>soft actuators that mimic massage motions</b> to help breast cancer survivors manage late effects, and I'll be presenting it at the E-Textiles 2026 international conference in the Czech Republic. Outside the lab you'll find me at hackathons, playing tennis, mentoring girls in hardware through Hack Club, and running our school's Model UN conferences."
+    "My main research designs <b>soft actuators that mimic massage motions</b> to help breast cancer survivors manage late effects, and I'll be presenting it at the E-Textiles 2026 international conference in the Czech Republic. Besides this you'll find me at hackathons, playing tennis, mentoring girls in hardware through Hack Club, and running our school's Model UN conferences."
   ],
 
   highlightsTitle: "Highlights",

@@ -21,6 +21,11 @@ window.MEDIA = {
       "content/research/e-waste-sorting/images/20261011_154029.jpg"
     ]
   },
+  "research/etextile-cardio": {
+    "images": [
+      "content/research/etextile-cardio/images/01-topic-presentation-award-tnjsf-fair.jpg"
+    ]
+  },
   "research/soft-actuators": {
     "images": [
       "content/research/soft-actuators/images/20260302_123340.jpg",

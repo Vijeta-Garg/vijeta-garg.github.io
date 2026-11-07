@@ -13,6 +13,8 @@
    captions   → optional nicer captions: { "photo1.jpg": "Testing rig" }
                 (otherwise the file name is used: "01-testing-rig.jpg" → "testing rig")
    related    → ids of other topics to link to
+   blog       → blog post file names (without .md) to link with a margin note,
+                e.g. ["2025-03-04-nothole"]; the post links back automatically
    ===================================================================== */
 window.RESEARCH = {
   pageTitle: "My Research",
@@ -72,6 +74,7 @@ window.RESEARCH = {
 
     {
       id: "bwsi-etextiles",
+      blog: ["2025-07-18-bwsi-0-5-of-the-way-to-completion-pictures-to-be-added", "2025-08-08-undershirt-to-mitigate-monitor-late-effects-of-breast-cancer"],
       shortTitle: "MIT BWSI: E-Textiles & Wearables",
       title: "E-Textiles and Wearable Technology",
       where: "Beaver Works Summer Institute (BWSI) at MIT",
@@ -93,6 +96,7 @@ window.RESEARCH = {
 
     {
       id: "etextile-cardio",
+      blog: ["2025-03-24-topic-presentation-award-tnjsf-fair"],
       shortTitle: "E-Textiles for Heart Health",
       title: "E-Textiles for Monitoring Cardiovascular Health",
       where: "Literature review",
@@ -107,7 +111,7 @@ window.RESEARCH = {
       ],
       links: [],
       youtube: [],
-      captions: {},
+      captions: { "01-topic-presentation-award-tnjsf-fair.jpg": "TNJSF fair 2025!" },
       related: []
     }
   ]

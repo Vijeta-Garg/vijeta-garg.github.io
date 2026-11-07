@@ -48,5 +48,12 @@
         return `<a class="polaroid" href="${UI.esc(c.href)}">${img ? `<img src="${UI.esc(img)}" alt="">` : `<div class="ph">${c.emoji || '✨'}</div>`}
           <span class="caption">${c.caption}</span></a>`;
       }).join('')}</div>
+    </section>` : ''}
+
+    ${window.Bookshelf && window.Bookshelf.html() ? `
+    <section class="narrow about-books">
+      <h2 class="section-title">${A.booksTitle || 'My Books'}</h2>
+      <p class="books-hint">click a book to read my notes on it ↓</p>
+      ${window.Bookshelf.html()}
     </section>` : ''}`;
 })();

@@ -5,14 +5,14 @@
 window.SITE = {
   name: "Vijeta Garg",
   brand: "...",                      // the little text at the top-left (reference site uses "...")
-  tagline: "High school researcher · Soft robotics, e-textiles & hardware for good",
+  tagline: "Builder, Researcher, also like to read books and debate about anything :)",
 
   // Top menu. "page" must match the data-page="" on each .html file.
   nav: [
     { label: "About Me",               href: "index.html",     page: "about" },
     { label: "My Research",            href: "research.html",  page: "research" },
     { label: "My Builds!",             href: "projects.html",  page: "projects" },
-    { label: "Blog",                   href: "blog.html",      page: "blog" },
+    { label: "Blog and Books",         href: "blog.html",      page: "blog" },
     { label: "Community",              href: "community.html", page: "community" }
   ],
 
