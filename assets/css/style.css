@@ -2,9 +2,9 @@
    Vijeta Garg — portfolio stylesheet  ✎  "product design sketchbook"
    ---------------------------------------------------------------------
    ✏️  EASY CUSTOMIZING: change the colors and fonts in the blocks
-   below (light mode, then dark mode). Everything else uses them.
+   below. Everything else uses them.
    Fonts are loaded from Google Fonts in the <head> of each page.
-   Ink palette: black + red pen + blue pen on dot-grid paper.
+   Ink palette: white gel pen + red pen + blue pen on black dot-grid paper.
    ===================================================================== */
 
 :root {
@@ -13,57 +13,32 @@
   --font-title: 'Architects Daughter', 'Segoe Print', cursive;            /* drafting-style titles */
   --font-hand: 'Caveat', 'Segoe Script', cursive;                         /* scribbled notes */
 
-  /* ---- Light mode colors (white sketchbook paper) ---- */
-  --bg: #fbf9f3;           /* paper */
-  --grid: rgba(36, 69, 181, .13); /* dot grid */
-  --text: #1b1b1b;         /* black ink */
-  --muted: #2f2f2f;        /* paragraph ink */
-  --soft: #5f5f5f;         /* pencil grey */
-  --red: #d62828;          /* red pen */
-  --blue: #2445b5;         /* blue ballpoint */
-  --line: #1b1b1b;
-  --card: #fffefa;
-  --card-border: #1b1b1b;
-  --link: #2445b5;
-  --chip-bg: rgba(36, 69, 181, .07);
+  /* ---- Colors (dark sketchbook: black paper, white gel pen, red + blue pens) ---- */
+  color-scheme: dark;
+  --bg: #15161a;           /* black paper */
+  --grid: rgba(255, 255, 255, .08); /* dot grid */
+  --text: #f3efe6;         /* white gel pen */
+  --muted: #ddd8cd;        /* paragraph ink */
+  --soft: #a19c92;         /* pencil grey */
+  --red: #ff5a5a;          /* red pen */
+  --blue: #7d9bff;         /* blue pen */
+  --line: #f3efe6;
+  --card: #1c1d22;
+  --card-border: #f3efe6;
+  --link: #8fa8ff;
+  --chip-bg: rgba(125, 155, 255, .1);
   --badge-bg: transparent;
-  --badge-text: #d62828;
-  --badge-border: #d62828;
+  --badge-text: #ff5a5a;
+  --badge-border: #ff5a5a;
   --active-bg: transparent;
-  --tape: rgba(36, 69, 181, .22);
-  --shadow: 4px 5px 0 rgba(36, 69, 181, .18);
+  --tape: rgba(125, 155, 255, .28);
+  --shadow: 4px 5px 0 rgba(125, 155, 255, .22);
 
   /* hand-drawn wobbly corners */
   --wobble: 255px 15px 225px 15px / 15px 225px 15px 255px;
   --wobble-2: 15px 225px 15px 255px / 255px 15px 225px 15px;
 
   --max-width: 1200px;
-}
-
-/* ---- Dark mode (black sketchbook, white gel pen) ---- */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #15161a; --grid: rgba(255, 255, 255, .08);
-    --text: #f3efe6; --muted: #ddd8cd; --soft: #a19c92;
-    --red: #ff5a5a; --blue: #7d9bff;
-    --line: #f3efe6; --card: #1c1d22; --card-border: #f3efe6;
-    --link: #8fa8ff; --chip-bg: rgba(125, 155, 255, .1);
-    --badge-text: #ff5a5a; --badge-border: #ff5a5a;
-    --tape: rgba(125, 155, 255, .28);
-    --shadow: 4px 5px 0 rgba(125, 155, 255, .22);
-  }
-}
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #15161a; --grid: rgba(255, 255, 255, .08);
-  --text: #f3efe6; --muted: #ddd8cd; --soft: #a19c92;
-  --red: #ff5a5a; --blue: #7d9bff;
-  --line: #f3efe6; --card: #1c1d22; --card-border: #f3efe6;
-  --link: #8fa8ff; --chip-bg: rgba(125, 155, 255, .1);
-  --badge-text: #ff5a5a; --badge-border: #ff5a5a;
-  --tape: rgba(125, 155, 255, .28);
-  --shadow: 4px 5px 0 rgba(125, 155, 255, .22);
 }
 
 /* ===================== Base ===================== */
