@@ -1,6 +1,8 @@
 # Vijeta Garg — Portfolio website
 
-Live at **https://vijeta-garg.github.io**
+Hi this is my vibe-coded personal website : ) 
+
+at **https://vijeta-garg.github.io**
 
 Plain HTML + CSS + JavaScript. No build tools are needed: edit text files, push, done.
 
