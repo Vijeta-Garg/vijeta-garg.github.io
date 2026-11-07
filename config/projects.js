@@ -6,9 +6,9 @@
    The ORDER here = the order in the left index.
    ===================================================================== */
 window.PROJECTS = {
-  pageTitle: "My Projects@Hackathons",
+  pageTitle: "My Builds!",
   indexTitle: "Projects",
-  intro: "Things I've built at hackathons and challenges, from AI apps to robot hands. Pick a project on the left.",
+  intro: "Things I've built at hackathons and challenges, from annotating extensions to robotic hands. Pick a project on the left.",
 
   items: [
     {

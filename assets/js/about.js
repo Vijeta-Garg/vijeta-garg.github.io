@@ -20,7 +20,7 @@
       <img class="avatar" src="${UI.esc(A.photo || '')}" alt="Photo of ${UI.esc(SITE.name || '')}"
            onerror="this.outerHTML='<div class=&quot;avatar-fallback&quot;>${initials}</div>'">
       <h1>${UI.esc(SITE.name || '')}</h1>
-      ${A.greeting ? `<p class="greeting">${A.greeting} <span class="wave">👋</span></p>` : ''}
+      ${A.greeting ? `<p class="greeting">${A.greeting}</p>` : ''}
       ${SITE.tagline ? `<p class="tagline">${SITE.tagline}</p>` : ''}
       ${UI.chips(A.interests, 'interest-chips')}
     </section>

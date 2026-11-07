@@ -11,7 +11,7 @@ window.SITE = {
   nav: [
     { label: "About Me",               href: "index.html",     page: "about" },
     { label: "My Research",            href: "research.html",  page: "research" },
-    { label: "My Projects@Hackathons", href: "projects.html",  page: "projects" },
+    { label: "My Builds!",             href: "projects.html",  page: "projects" },
     { label: "Blog",                   href: "blog.html",      page: "blog" },
     { label: "Community",              href: "community.html", page: "community" }
   ],

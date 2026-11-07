@@ -31,7 +31,7 @@
     },
     badges(arr) {
       if (!arr || !arr.length) return '';
-      return `<div class="badges">${arr.map(a => `<span class="badge">🏆 ${a}</span>`).join('')}</div>`;
+      return `<div class="badges">${arr.map(a => `<span class="badge">★ ${a}</span>`).join('')}</div>`;
     },
     chips(arr, extraCls) {
       if (!arr || !arr.length) return '';

@@ -6,7 +6,7 @@ window.ABOUT = {
   // Put your photo at assets/img/avatar.png (square works best). Until then your initials show.
   photo: "assets/img/avatar.png",
 
-  greeting: "Hi, I'm Vijeta!",
+  greeting: "Hi, nice to meet you!",
 
   interests: ["Soft robotics", "E-textiles", "Wearable tech", "Hardware", "Accessible Solutions", "Society",  "AI for good"],
 
@@ -30,6 +30,6 @@ window.ABOUT = {
   explore: [
     { caption: "my research",   href: "research.html",  emoji: "🔬", mediaFrom: "research" },
     { caption: "my projects",   href: "projects.html",  emoji: "🛠️", mediaFrom: "projects" },
-    { caption: "community",     href: "community.html", emoji: "🤝", mediaFrom: "community" }
+    { caption: "community",     href: "community.html", emoji: "🤝", image: "assets/img/omid-edison-chapter.jpg" }
   ]
 };
