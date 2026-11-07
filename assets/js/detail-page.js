@@ -22,6 +22,7 @@
 
   indexEl.innerHTML = items.map(it => `<li><a href="#${UI.esc(it.id)}" data-id="${UI.esc(it.id)}">
       ${it.shortTitle || it.title}${it.when ? `<span class="when">${it.when}</span>` : ''}
+      ${it.status ? `<span class="status-flag">🚧 ${it.status}</span>` : ''}
       ${blogPosts(it).length ? '<span class="blog-flag">↖ on the blog!</span>' : ''}</a></li>`).join('');
 
   // blog posts linked from an item (config: blog: ["post-file-name", ...])
@@ -61,7 +62,8 @@
     detailEl.innerHTML = `
       ${blogNote(it)}
       ${meta ? `<p class="eyebrow">${meta}</p>` : ''}
-      <h2 class="detail-title">${it.title}</h2>
+      <h2 class="detail-title">${it.title}${it.status ? `<span class="status-note">
+        <svg viewBox="0 0 60 30" aria-hidden="true"><path d="M56 22 C 40 26, 20 22, 6 12"/><path d="M15 8 L5 12 L12 20"/></svg>${it.status}</span>` : ''}</h2>
       ${it.subtitle ? `<p class="detail-sub">${it.subtitle}</p>` : ''}
       ${UI.badges(it.awards)}
       ${UI.chips(it.tags)}

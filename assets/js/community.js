@@ -6,7 +6,8 @@
     <h1 class="page-title">${C.pageTitle || 'Community'}</h1>
     ${C.intro ? `<p class="page-intro">${C.intro}</p>` : ''}
     <div class="community-list">${(C.items || []).map(it => `
-      <article class="card community-card" id="${UI.esc(it.id)}">
+      <article class="card community-card${it.note && it.note.corner === 'bottom-right' ? ' has-bottom-note' : ''}" id="${UI.esc(it.id)}">
+        ${it.note && it.note.text && it.note.corner !== 'bottom-right' ? `<aside class="corner-note top">${it.note.text}</aside>` : ''}
         ${it.when ? `<p class="eyebrow">${it.when}</p>` : ''}
         <h2>${it.title}</h2>
         ${it.role ? `<p class="role">${it.role}</p>` : ''}
@@ -14,6 +15,7 @@
         ${UI.list(it.highlights)}
         ${UI.links(it.links)}
         <div data-mini="${UI.esc(it.id)}"></div>
+        ${it.note && it.note.text && it.note.corner === 'bottom-right' ? `<aside class="corner-note bottom">${it.note.text}</aside>` : ''}
       </article>`).join('')}
     </div>`;
   (C.items || []).forEach(it => {

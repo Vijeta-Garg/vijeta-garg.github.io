@@ -548,3 +548,35 @@ body[data-page="blog"] .page-title::after { content: "✎ from my OG blog called
 .about-books .shelf-title { display: none; }
 .books-hint { font-family: var(--font-hand); font-size: 1.35rem; color: var(--blue); margin: -12px 0 0; transform: rotate(-1.5deg); }
 @media (max-width: 700px) { .about-books .bookshelf { display: block; padding-top: 10px; } }
+
+/* ---------- "under construction" style status notes (status: in config/projects.js) ---------- */
+.status-flag {
+  display: inline-block; margin-top: 2px; padding: 0 8px; font-family: var(--font-hand); font-size: 1.05rem; font-weight: 700;
+  color: var(--red); border: 1.5px dashed var(--red); border-radius: var(--wobble); transform: rotate(-3deg); transform-origin: left;
+}
+.status-note {
+  display: inline-flex; align-items: center; gap: 4px; margin-left: 14px; vertical-align: middle;
+  font-family: var(--font-hand); font-size: 1.5rem; font-weight: 700; color: var(--red); transform: rotate(-6deg); white-space: nowrap;
+}
+.status-note svg { width: 44px; height: 22px; fill: none; stroke: var(--red); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 900px) { .status-flag { display: none; } }
+
+
+/* scribbled tag pinned to a corner of a Community card (note: in config/community.js) */
+.corner-note {
+  position: absolute; right: 24px; z-index: 2; max-width: min(460px, 60%); padding: 4px 12px;
+  font-family: var(--font-hand); font-size: 1.25rem; font-weight: 700; line-height: 1.25; color: var(--red);
+  background: var(--card); border: 1.5px dashed var(--red); border-radius: var(--wobble);
+}
+.corner-note.top { top: 18px; transform: rotate(2deg); }
+.corner-note.bottom { bottom: 16px; transform: rotate(-2deg); }
+.community-card.has-bottom-note { padding-bottom: 66px; }
+.corner-note a { color: var(--blue); text-decoration: underline wavy var(--blue) 1px; text-underline-offset: 3px; }
+@media (max-width: 700px) {
+  .corner-note { position: static; display: block; max-width: none; margin-top: 16px; }
+  .community-card.has-bottom-note { padding-bottom: 26px; }
+}
+/* not enough room beside the title: put the top note on its own line, still at the right */
+@media (max-width: 1150px) and (min-width: 701px) {
+  .corner-note.top { position: static; display: block; width: fit-content; margin: -6px -4px 10px auto; }
+}
